@@ -5,9 +5,9 @@ import java.util.HashSet;
 import java.util.Random;
 import java.util.stream.Collectors;
 
-public class RandSimpleNumber {
+public class SluchainoeProstoe {
 
-    public static int randSimpleNumber() {
+    public static int sluchainoeProstoe() {
         HashSet<Integer> resheto = new HashSet<Integer>();
         resheto=createResheto(resheto);
         int num = randomNum();
